@@ -162,3 +162,13 @@
 .plan-dark .plan-vip-description{color:#fff4f4}
 @media(max-width:640px){.plan-conversion{padding-top:12px}.plan-capacity{font-size:9px;margin-bottom:12px;padding:10px 12px}.plan-vip-cta{padding:17px 15px 16px;border-radius:6px}.plan-vip-head strong{font-size:11px}.plan-vip-description{font-size:11px;margin-top:13px;padding-top:13px}}
 @media(prefers-reduced-motion:reduce){.plan-vip-cta{transition:none}.plan-vip-cta:hover{transform:none}}
+
+
+/* Comunidade INSPIRA após o convite final */
+.community-section{background:#f5efe8;padding:86px 0 100px}
+.community-section .bonus-community{box-shadow:0 12px 32px rgba(53,30,42,.08);border:1px solid #e1d2c6;background:#fff9f2}
+.community-section .bonus-community-title{line-height:1.045;margin:14px 0 28px;letter-spacing:-.04em;text-wrap:balance}
+.community-section .bonus-community p:not(.overline){line-height:1.82;margin-bottom:14px}
+.community-section .bonus-community .btn{min-width:280px;max-width:100%;white-space:normal;text-align:center;line-height:1.5}
+@media(max-width:900px){.community-section{padding:65px 0 80px}.community-section .bonus-community{gap:25px}.community-section .bonus-community-title{max-width:720px}}
+@media(max-width:640px){.community-section{padding:48px 0 65px}.community-section .bonus-community{padding:28px 22px}.community-section .bonus-community-title{font-size:clamp(42px,10vw,56px);line-height:1.08;margin-bottom:23px}.community-section .bonus-community .btn{min-width:0;width:100%}}
