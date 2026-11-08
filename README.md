@@ -35,3 +35,11 @@ Os CTAs atuais direcionam ao Instagram `@soualmacuidada`, pois o documento estra
 - Tipografia: Cormorant Garamond + DM Sans.
 
 Projeto escrito de forma original, usando como base o workbook estratégico enviado pelo idealizador. Fotografias de paisagens carregadas do Unsplash sob a [licença do Unsplash](https://unsplash.com/license), sujeitas à disponibilidade do serviço.
+
+## Comunidade INSPIRA e e-book bônus
+
+Logo após a seção `04 / A sua escolha`, a página apresenta o convite ao **Grupo INSPIRA — Insights Terapêuticos**, no qual serão divulgadas novidades da jornada e a abertura do checkout. O link do grupo é `https://chat.whatsapp.com/FbLqdc1jA5q84KBJkODmj0?s=cl&p=a&mlu=4&ilr=4`.
+
+Em seguida, o bloco **A PONTE — Guia de Travessia** apresenta o e-book oferecido aos participantes, acompanhado do mockup otimizado `guia-de-travessia-book.webp` e de seus quatro símbolos: mapa, bússola, prumo e colher de pedreiro.
+
+Endereço oficial da landing: **https://jornadaponte.vercel.app/**. O checkout permanece em preparação, sem venda direta no site até a definição das condições.
