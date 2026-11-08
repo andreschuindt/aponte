@@ -11,7 +11,7 @@ Landing page original e responsiva para a edição fundadora de A PONTE, idealiz
 
 ## Publicação
 
-Endereço principal: `https://somosaponte.vercel.app/` (domínio associado ao projeto SCHUINDT/aponte).
+Endereço principal: `https://jornadaponte.vercel.app/` (domínio associado ao projeto SCHUINDT/aponte).
 
 Projeto estático, sem dependências e sem etapa de build. Na Vercel, selecionar `Framework Preset: Other`, `Root Directory: / (raiz deste repositório)`, `Build Command: vazio`, `Output Directory: vazio` quando integrado ao repositório `andreschuindt/aponte`.
 
