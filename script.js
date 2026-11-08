@@ -1,8 +1,6 @@
-// A PONTE — Configuração pública da landing.
-// Quando os checkouts forem confirmados, coloque os URLs oficiais abaixo.
-// Até lá, os botões solicitam informações pelo perfil oficial, sem simular compras.
-const checkoutLinks = { online: '', presencial: '' };
-const instagram = 'https://www.instagram.com/soualmacuidada/';
+// A PONTE — Comportamentos de navegação da landing.
+// Os botões das modalidades apontam diretamente para o Grupo INSPIRA no WhatsApp.
+// A compra ainda não está habilitada neste site.
 
 const header = document.getElementById('header');
 const progress = document.getElementById('progress');
@@ -43,17 +41,5 @@ if (!reduceMotion && 'IntersectionObserver' in window) {
 } else {
   document.querySelectorAll('[data-reveal]').forEach(element => element.classList.add('is-visible'));
 }
-
-document.querySelectorAll('[data-plan]').forEach(link => {
-  const name = link.getAttribute('data-plan');
-  const checkout = checkoutLinks[name];
-  if (checkout && /^https:\/\//.test(checkout)) {
-    link.href = checkout;
-    link.textContent = 'Fazer minha inscrição ↗';
-    link.removeAttribute('target');
-  } else {
-    link.href = instagram;
-  }
-});
 
 document.getElementById('year').textContent = new Date().getFullYear();
