@@ -131,7 +131,7 @@
     flex:none;
     min-height:0;
     width:min(100%,530px);
-    aspect-ratio:1122/1402;
+    aspect-ratio:820/1402;
     margin:18px 0 0
   }
   .essence-bridge-frame img{position:static;object-fit:cover;object-position:center}
@@ -172,3 +172,9 @@
 .community-section .bonus-community .btn{min-width:280px;max-width:100%;white-space:normal;text-align:center;line-height:1.5}
 @media(max-width:900px){.community-section{padding:65px 0 80px}.community-section .bonus-community{gap:25px}.community-section .bonus-community-title{max-width:720px}}
 @media(max-width:640px){.community-section{padding:48px 0 65px}.community-section .bonus-community{padding:28px 22px}.community-section .bonus-community-title{font-size:clamp(42px,10vw,56px);line-height:1.08;margin-bottom:23px}.community-section .bonus-community .btn{min-width:0;width:100%}}
+
+/* Foto vertical da ponte amarela de Piracicaba: proporção e enquadramento editorial. */
+.essence-bridge-frame{background:#eee8df;aspect-ratio:820/1402;max-height:760px}
+.essence-bridge-frame img{object-position:center center}
+@media(max-width:900px){.essence-bridge-frame{width:min(100%,460px);aspect-ratio:820/1402}}
+@media(max-width:640px){.essence-bridge-frame{width:100%;max-width:450px}}
