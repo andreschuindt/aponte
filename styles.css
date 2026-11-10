@@ -178,3 +178,20 @@
 .essence-bridge-frame img{object-position:center center}
 @media(max-width:900px){.essence-bridge-frame{width:min(100%,460px);aspect-ratio:820/1402}}
 @media(max-width:640px){.essence-bridge-frame{width:100%;max-width:450px}}
+
+
+/* Película editorial rosada: ponte amarela de Piracicaba na seção O CHAMADO. */
+.essence-bridge-frame{isolation:isolate;background:#e9d7d1}
+.essence-bridge-frame img{
+  filter:saturate(.70) contrast(.85) brightness(1.06) sepia(.11);
+}
+.essence-bridge-frame::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(241,200,193,.24) 0%,rgba(239,192,188,.20) 40%,rgba(98,53,69,.16) 100%),
+    linear-gradient(110deg,rgba(255,232,211,.11),transparent 62%);
+}
